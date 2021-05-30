@@ -1,0 +1,330 @@
+
+
+
+
+body {
+ background-color:  white;
+}
+
+p  {
+  font-size: 1.3rem;
+}
+
+.name {
+  font-family: Raleway;
+  font-weight:bold;
+  font-size: 6.9rem;
+  color: black;
+  margin-top:6%;
+
+}
+
+.header2 {
+  font-size: 1.7rem;
+  color: black;
+}
+
+.navbar-nav {
+ margin:auto;
+ z-index: 1;
+}
+
+.navbar-collapse {
+   float:none;
+   display: flex;
+}
+
+.intro {
+  margin-bottom:20%;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  height:44px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar {
+  margin-bottom:4%;
+}
+
+
+.jamie-description {
+  padding-left: 40%;
+  padding-right:10%;
+  padding-top: 10%;
+}
+
+.title-pic{
+  border-radius: 100%;
+  width: 30%;
+  border:5px solid;
+  float:left;
+  margin-left: 5%;
+}
+
+  /* RESEARCH PAGE */
+
+.hello {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.math-backing {
+  background-image: url("images/math.jpg");
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+
+.research-intro {
+  padding: 5% 20% 0 20%;
+  margin:auto;
+  margin-bottom:5%;
+}
+
+.research-caption {
+  text-align: center;
+  font-size:.8rem;
+  color: black;
+  margin-top:3%;
+  width:40%;
+  height:40%;
+}
+
+.research-title {
+  text-align: center;
+  weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  width:40%;
+  height:40%;
+}
+
+.bubbles {
+  width:40%;
+  height:40%;
+}
+
+.research-intro-two {
+  padding: 0 20% 0 20%;
+  margin:auto;
+  margin-bottom:5%;
+}
+
+.euler {
+  padding-top:2%;
+}
+
+.research-jamie {
+  border-radius:100%;
+  width:25%;
+  height:25%;
+  margin: 3%;
+}
+
+/* CV AND TRANSCRIPTS */
+
+a.downloads {
+  margin-top:20%;
+  font-size:1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: Montserrat;
+  weight: bold;
+}
+
+.buttons {
+  margin:2%;
+}
+
+.files {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.years-title {
+  margin-top:4%;
+  margin-bottom:3%;
+
+
+}
+
+.years {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+
+}
+
+.classes {
+
+}
+
+.grade {
+  list-style-type:none;
+}
+
+/* MUSICIAN PAGE */
+
+.new-back {
+  margin-top:4%;
+}
+
+.header-and-nav {
+  margin-bottom:3%;
+}
+
+
+.music-jamie {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border:1px solid;
+  border-color: black;
+  width:100%;
+}
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top:5%;
+}
+
+.intro-jamie {
+    border-radius:100%;
+    width:25%;
+    height:25%;
+    border:3px outset;
+    border-color: white;
+    margin:auto;
+
+}
+
+.music-intro {
+  width:50%;
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: Raleway;
+  color: black;
+  font-weight: bold;
+  background-color: #ffd3b4;
+  padding: 4vh;
+  border: 2px outset;
+}
+
+.gui {
+  position: absolute;
+  z-index:1;
+  transform: rotate(-85deg);
+  width:10%;
+  bottom:40vw;
+  top: 6vw;
+  left: 5vw;
+
+}
+
+.gui2 {
+  position: absolute;
+  z-index:1;
+  transform: rotate(30deg);
+  width:10%;
+  bottom:40vw;
+  top: 6vw;
+  left: 85vw;
+
+}
+
+.music-images {
+  background-color: #98ddca;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:auto 5%;
+}
+
+.music-image-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 ;
+  margin: 5% 0;
+}
+
+.music-image-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1.06951871658;
+    margin: 5% 0;
+}
+
+.music-image-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.99494949494;
+    margin: 5% 0;
+}
+
+.musical-influences{
+  margin-bottom: 5%;
+}
+
+.hurricane {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  background-color: #ffd3b4;
+  z-index: 1;
+}
+
+.violet {
+  font-size: 5rem;
+  font-family: Raleway;
+  color: black;
+}
+
+.album-art {
+  width: 70vw;
+  height: 70vw;
+}
+
+.intro.hurricane {
+  margin-top:7%;
+  padding-top:4%;
+}
+
+.hurricane-border {
+  margin: 4vh;
+  background-color: purple;
+  padding: 4vh;
+  border: 5px solid;
+
+}
+
+.example-music {
+  padding:10vh 0;
+
+}
+
+.u-and-i {
+  border: 8px outset;
+  border-color: white;
+}
+
+/* .body-music {
+margin: 0 10%;
+} */
+
+/* DEVELOPER PAGE */
+
+
+.code-backing {
+  background-image: url("images/code.jpg");
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
